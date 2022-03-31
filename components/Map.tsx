@@ -24,6 +24,7 @@ function Map() {
     () => ({
       // styles: // can add a JSON of map styles here, but I like the default one
       disableDefaultUI: true,
+      clickableIcons: false,
       zoomControl: true,
     }),
     []
